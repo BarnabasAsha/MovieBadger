@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4,h5, h6, p, a{
+    font-family: 'Ubuntu', sans-serif !important; 
+}
+
+
+/* Utilities */
+
+.animated {
+    animation-delay: 0.5s;
+}
+
+.wrapper {
+    padding: 1em 8em;
+    width: 100%;
+}
+
+.form-pair {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form input {
+    background: #2D3743;
+    border: 1px solid #a18282;
+    width: 372px;
+    height: 42px;
+    padding: 10px;
+    margin: 0;
+    color: #C4C4C4;
+}
+
+form input::placeholder {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+form button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 88px;
+    height: 42px;
+    border: none;
+    margin: 0;
+}
+
+/* Header and Showcase*/
+
+.logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F92542;       
+    padding-top: 1em;
+}
+
+.header {
+    background: url(../images/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.main {
+    position: absolute;
+    width: 100vw;
+    height: 109vh;
+    top: 0.9em;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url(../images/bg2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header form {
+    margin-top: 6em;
+}
+
+.alert {
+    display: none;
+    width: 400px !important;
+}
+
+.showcase .showcase-text {
+    width: 550px;
+}
+
+.showcase-text h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.showcase-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 33px;
+}
+
+.showcase-text h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #C4C4C4;
+}
+
+.showcase-text {
+    margin: 5em 0;
+    color: white;
+    width: 800px;
+}
+
+/* App screens named bg1 and bg2 */
+
+.bg-1 {
+    position: absolute;
+    top: 8em;
+    right: 8em;
+    width: 260px;
+    height: 524px;
+}
+
+.bg-2 {
+    position: absolute;
+    top: 11em;
+    right: 21em;
+    width: 260px;
+    height: 524px;
+}
+
+/* Content area */
+
+.content {
+    padding-top: 10em;
+}
+
+.rotate {
+    width: 2400px;
+    height: 595px;
+    background: linear-gradient(289.01deg, #1A2632 43.19%, #F92542 89.06%);
+    transform: rotate(-30.42deg);
+    position: absolute;
+    left: -25em;
+    top: 2300px;
+    z-index: -1;
+}
+
+.content h2 {
+    width: 545px;
+    height: 82px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #1A2632;
+}
+
+.content p {
+    font-style: normal;
+    font-weight: normal;
+    width: 487px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1A2632;
+}
+
+/* footer */
+.footer {
+    background: #1A2632;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 5em 0;
+}
+
+.footer h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+
