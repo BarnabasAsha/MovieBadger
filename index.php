@@ -100,7 +100,7 @@
                 <div class="img ml-5">
                     <img src="./images/search.png" alt="">
                 </div>
-                <div class="text mr-5">
+                <div class="text">
                     <h2 class="mb-4 text-left">Find Forgotten Movies</h2>
                     <p class="text-left">Find movie by inputing a phrase or screenshot from the movie.</p>
                 </div>
