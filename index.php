@@ -47,7 +47,7 @@
 
     <section>
         <div class="steps-container">
-            <h2 class="text-center mb-5">How It Works</h2>
+            <h2 class="text-center mb-5 animated fadeInRight">How It Works</h2>
             <div class="steps d-flex flex-column align-items-center justify-content-center">
             <div class="container d-flex flex-row justify-content-between align-items-start">
                 <div class="step animated fadeInRight">
