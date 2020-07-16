@@ -4,7 +4,7 @@ $email = $_GET['email'];
 if (isset($email)) {
     # code...
 
-    $dbServerName = "db4free.net";
+    $dbServerName = "https://www.db4free.net";
             $dbUserName = "notification";
             $dbPassword = "TechBee15";
             $dbName = "moviebadger";
