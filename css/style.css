@@ -21,7 +21,7 @@ h1, h2, h3, h4,h5, h6, p, a{
 /* Utilities */
 
 .animated {
-    animation-delay: 0.3s;
+    animation-delay: 0.5s;
 }
 
 .wrapper {
@@ -85,7 +85,7 @@ form button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 110vh;
+    height: 120vh;
     width: 100vw;
     margin: 0;
 }
@@ -93,7 +93,7 @@ form button {
 .main {
     position: absolute;
     width: 100vw;
-    height: 109vh;
+    height: 119vh;
     top: 0.9em;
     left: 0;
     right: 0;
@@ -169,6 +169,10 @@ form button {
 
 .steps-container {
     margin-top: 181px;
+}
+
+.steps-container .animated {
+    animation-delay: 3s;
 }
 
 .steps-container h2 {

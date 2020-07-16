@@ -50,7 +50,7 @@
             <h2 class="text-center mb-5">How It Works</h2>
             <div class="steps d-flex flex-column align-items-center justify-content-center">
             <div class="container d-flex flex-row justify-content-between align-items-start">
-                <div class="step">
+                <div class="step animated fadeInRight">
                     <div class="serial">
                                 1
                     </div>
@@ -58,7 +58,7 @@
                     Create an account on moviebadger to get detailed info and download link.
                     </p>
                 </div>
-                <div class="step">
+                <div class="step animated fadeInRight">
                     <div class="serial">
                                 2
                     </div>
@@ -66,7 +66,7 @@
                     Get the title of any movie you’re trying to remember by inputing a phrase or screenshot from the movie.
                     </p>
                 </div>
-                <div class="step">
+                <div class="step animated fadeInRight">
                     <div class="serial">
                                 3
                     </div>
