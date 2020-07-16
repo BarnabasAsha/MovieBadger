@@ -4,18 +4,14 @@ $email = $_GET['email'];
 if (isset($email)) {
     # code...
 
-    $dbServerName = "db4free.net";
-            $dbUserName = "notification";
+    $dbServerName = "localhost";
+            $dbUserName = "root";
             $dbPassword = "TechBee15";
             $dbName = "moviebadger";
 
             $conn = mysqli_connect($dbServerName, $dbUserName, $dbPassword, $dbName);
             $cmd = "INSERT INTO emaillist (email) value('$email');";
-            
-            if (mysqli_query($conn, $cmd)) {
-                # code...
-                echo 'saved';
-            }else echo 'not saved';
+            mysqli_query($conn, $cmd);
 
     if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
         # code...

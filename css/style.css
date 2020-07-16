@@ -20,9 +20,9 @@ h1, h2, h3, h4,h5, h6, p, a{
 
 /* Utilities */
 
-.animated {
+/* .animated {
     animation-delay: 0.5s;
-}
+} */
 
 .wrapper {
     padding: 1em 8em;
@@ -125,7 +125,7 @@ form button {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 23px;
     margin-top: 33px;
 }
 
@@ -167,14 +167,18 @@ form button {
     padding-top: 10em;
 }
 
+#white {
+    color: #fff;
+}
+
 .rotate {
-    width: 2400px;
+    width: 150vw;
     height: 595px;
     background: linear-gradient(289.01deg, #1A2632 43.19%, #F92542 89.06%);
     transform: rotate(-30.42deg);
     position: absolute;
     left: -25em;
-    top: 2300px;
+    top: 2400px;
     z-index: -1;
 }
 
@@ -194,7 +198,7 @@ form button {
     width: 487px;
     height: 36px;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 23px;
     color: #1A2632;
 }
 
@@ -211,6 +215,24 @@ form button {
     font-size: 18px;
     line-height: 21px;
     color: rgba(255, 255, 255, 0.9);
+}
+
+@media only screen and (max-width: 900px) {
+    .wrapper {
+        padding: 1em 2em;
+    }
+
+    .bg-1 {
+        display: none;
+    }
+
+    .bg-2 {
+        position: static;
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 400px;
+    }
 }
 
 
