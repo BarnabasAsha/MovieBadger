@@ -32,9 +32,10 @@
                             </div>
                     </form>
                 </div>
-                
-                    <img class="bg-1 animated bounceInUp" src="./images/screen.png" alt="">
-                    <img class="bg-2 animated bounceInUp" src="./images/screen.png" alt="">
+                <div class="img-contain">
+                <img class="bg-1 animated pulse" src="./images/screen.png" alt="">
+                    <img class="bg-2 animated pulse" src="./images/screen2.png" alt="">
+                </div>
             
             </div>
         </div>
@@ -43,16 +44,51 @@
     <div class="main">
     
     </div> 
+
+    <section>
+        <div class="steps-container">
+            <h2 class="text-center mb-5">How It Works</h2>
+            <div class="steps d-flex flex-column align-items-center justify-content-center">
+            <div class="container d-flex flex-row justify-content-between align-items-start">
+                <div class="step">
+                    <div class="serial">
+                                1
+                    </div>
+                    <p>
+                    Create an account on moviebadger to get detailed info and download link.
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="serial">
+                                2
+                    </div>
+                    <p>
+                    Get the title of any movie you’re trying to remember by inputing a phrase or screenshot from the movie.
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="serial">
+                                3
+                    </div>
+                    <p>
+                    View detailed info of the movie and also get download link.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+            
+    </section>
+
     <section>
         <div class="container">
-            <div class="content d-flex flex-row flex-wrap justify-content-center align-items-center wow fadeInLeft">
+            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center wow fadeInLeft">
                 <div class="img mr-5">
-                    <img src="./images/screen.png" alt="">
+                    <img src="./images/create-acct.png" alt="">
                 </div>
                 <div class="text ml-5">
-                    <h2 class="mb-5">Find the title to any movie with the world’s first movie finder.</h2>
-                    <p>Moviebadger helps you remember movies. Find and save movies to your favourite list, get movie info and even download links!
-                    </p>
+                    <h2 class="mb-4 text-right">Create Account</h2>
+                    <p class="text-right">create an account to get movie info and even download links!</p>
                 </div>
             </div>
         </div>
@@ -60,30 +96,31 @@
 
     <section>
         <div class="container">
-            <div class="content d-flex flex-row flex-wrap justify-content-center align-items-center flex-row-reverse wow fadeInRight">
+            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center flex-row-reverse wow fadeInRight">
                 <div class="img ml-5">
-                    <img src="./images/screen.png" alt="">
+                    <img src="./images/search.png" alt="">
                 </div>
                 <div class="text mr-5">
-                    <h2 class="mb-5">Find the title to any movie with the world’s first movie finder.</h2>
-                    <p>Moviebadger helps you remember movies. Find and save movies to your favourite list, get movie info and even download links!
-                    </p>
+                    <h2 class="mb-4 text-left">Find Forgotten Movies</h2>
+                    <p class="text-left">Find movie by inputing a phrase or screenshot from the movie.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section>
-        <div class="content d-flex flex-row flex-wrap justify-content-center align-items-center wow fadeInLeft">
+        <div class="container">
+        <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center wow fadeInLeft">
         <div class="img mr-5">
-                    <img src="./images/screen.png" alt="">
+                    <img src="./images/favorite.png" alt="">
                 </div>
                 <div class="text ml-5">
-                    <h2 class="mb-5" id="white">Find the title to any movie with the world’s first movie finder.</h2>
-                    <p id="white">Moviebadger helps you remember movies. Find and save movies to your favourite list, get movie info and even download links!
+                    <h2 class="mb-4 text-right" id="white">Favorite List</h2>
+                    <p class="text-right" id="white">Get overview of your favourite movies, watch trailers or select a movie to get detailed info and download link.
                     </p>
                 </div>
             </div>
+        </div>
     </section>
 
     <div class="rotate">
@@ -92,14 +129,13 @@
 
     <section>
         <div class="container">
-            <div class="content d-flex flex-row flex-wrap justify-content-center align-items-center flex-row-reverse mt-5 wow fadeInRight my-5">
+            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center flex-row-reverse mt-5 wow fadeInRight my-5">
                 <div class="img ml-5">
-                    <img src="./images/screen.png" alt="">
+                    <img src="./images/customization.png" alt="">
                 </div>
                 <div class="text mr-5">
-                    <h2 class="mb-5">Find the title to any movie with the world’s first movie finder.</h2>
-                    <p>Moviebadger helps you remember movies. Find and save movies to your favourite list, get movie info and even download links!
-                    </p>
+                    <h2 class="mb-4 text-left">Customization</h2>
+                    <p class="text-left">Customize your settings, change themes and manage your subscription</p>
                 </div>
             </div>
         </div>
