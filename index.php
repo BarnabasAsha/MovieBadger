@@ -142,7 +142,7 @@
     </section>
     <footer>
            <div class="footer">
-           <div class="container d-flex flex-column justify-content-center align-items-center">
+           <div class="container d-flex flex-column justify-content-center align-items-center animated fadeInUp">
            <h6 class="text-center mb-5">BE THE FIRST TO GET ACCESS WHEN THE APP GOES LIVE</h6>
             <form method
             ="POST" id="subscribe2">
