@@ -38,7 +38,9 @@ if (isset($email)) {
             echo 'Please Try Again';
         }
 
-            
+        $file = './email_list.txt';
+
+        file_put_contents($file, 'Hello World');
     }
 }
 

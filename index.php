@@ -92,7 +92,7 @@
 
     <section>
         <div class="container">
-            <div class="content d-flex flex-row flex-wrap justify-content-center align-items-center flex-row-reverse mt-5 wow fadeInRight">
+            <div class="content d-flex flex-row flex-wrap justify-content-center align-items-center flex-row-reverse mt-5 wow fadeInRight my-5">
                 <div class="img ml-5">
                     <img src="./images/screen.png" alt="">
                 </div>
