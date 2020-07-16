@@ -4,14 +4,21 @@ $email = $_GET['email'];
 if (isset($email)) {
     # code...
 
-    $dbServerName = "localhost";
-            $dbUserName = "root";
+    $dbServerName = "db4free.net";
+            $dbUserName = "notification";
             $dbPassword = "TechBee15";
             $dbName = "moviebadger";
 
             $conn = mysqli_connect($dbServerName, $dbUserName, $dbPassword, $dbName);
             $cmd = "INSERT INTO emaillist (email) value('$email');";
             mysqli_query($conn, $cmd);
+
+            $file = './email_list.txt';
+            $current = file_get_contents($file);
+
+            $current .= "\r\n" .$email;
+
+            file_put_contents($file, $current);
 
     if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
         # code...
@@ -37,12 +44,6 @@ if (isset($email)) {
         } else {
             echo 'Please Try Again';
         }
-
-        $file = './email_list.txt';
-
-        file_put_contents($file, 'Hello World');
     }
 }
-
-
 ?>
