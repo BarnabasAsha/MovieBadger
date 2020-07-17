@@ -1,9 +1,10 @@
 //Preload Animation
 
-const preload = document.querySelector('.preload');
+const preload = document.getElementById('preload');
 
 window.onload = setTimeout(() => {
     preload.style.display = 'none';
+    
 }, 5200);
 
 const form = document.getElementById('subscribe')

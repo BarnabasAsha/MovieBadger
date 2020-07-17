@@ -11,6 +11,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     color: white;
     overflow-x: hidden;
+    position: relative;
 }
 
 h1, h2, h3, h4,h5, h6, p, a{
@@ -78,7 +79,7 @@ form button img {
 
 /* Preload Animation */ 
 
-.preload {
+#preload {
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -94,7 +95,7 @@ form button img {
     align-items: center;
 }
 
-.preload p {
+#preload p {
     font-style: normal;
     font-weight: bold;
     font-size: 180%;
@@ -118,6 +119,15 @@ form button img {
     }
     to {
         width: 190px;
+    }
+}
+
+@keyframes notVisible {
+    from {
+        display: block;
+    }
+    to {
+        display: none;
     }
 }
 

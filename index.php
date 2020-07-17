@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/bootstrap/bootstrap.css">
 </head>
 <body>   
-    <div class="preload">
+    <div id="preload">
         <p class="preload-anim">
             moviebadger
         </p>
