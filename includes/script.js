@@ -2,13 +2,10 @@
 
 const preload = document.getElementById('preload');
 
-window.onload = setTimeout(() => {
+setTimeout(() => {
     preload.style.display = 'none';
-    
-}, 5200);
+}, 5000);
 
-const form = document.getElementById('subscribe')
-const email = document.getElementById('email');
 
 window.onload = (function () {
     email.value = '';

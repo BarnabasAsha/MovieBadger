@@ -27,16 +27,19 @@ if (isset($email)) {
         $from = "MovieBadger";
         $subject = "Notification Confirmation";
         $body = '
-        <div class="container" style="background: linear-gradient(81.7deg, #1A2632 35.21%, #F0324F 116.87%); color: white; padding: 30px; text-align: center; width: 280px; height: 200px; margin: auto; font-family: sans-serif;">
-        <h3 style="font-size: 14px; font-weight: bold; margin-bottom: 20px;">Movie Badger</h3>
-        <h1 style="font-size: 30px; font-weight: bold;">Thank you!</h1>
-        <p style="font-size: 16px;">We would contact you when we launch</p>
+        <div style="width: 350px;  margin: auto; font-family: san-serif;">
+        <div style="background: #ec405a; color: white; padding: 30px; text-align: center; height: 120px; font-family: sans-serif;">
+        <h3 style="font-size: 14px; font-weight: bold; margin-bottom: 20px; color: white; text-align:left; ">Movie Badger</h3>
+        <h2 style="font-size: 45px; font-style: italic; font-weight: 400; font-family: lucida sans; color: #1A2632; margin-top: 20px; text-align: center;">Thank you!</h2>
+        </div>
+        <p style="font-size: 22px; font-weight: 500; height: 200px; background: white; padding: 20px;">Hi there, <br><br>
+              Thanks for your interest in moviebadger! <br><br>
+            As promised you will be the first to know when the app is officially out. <br><br>
+            The moviebadger team</p>
     </div>
         ';
         $headers = "MIME-Version: 1.0" ."\r\n";
         $headers .= "Content-Type:text/html" ."\r\n";
-        $headers .= "charset=UTF-8" ."\r\n";
-        $headers .= "From: " .$from ."\r\n";
         $send = mail($email,$subject,$body,$headers);
         if ($send == true) {
             # code...

@@ -181,6 +181,8 @@ form button img {
 
 .header form {
     margin: 6em 0;
+    height: 300px;
+    
 }
 
 .alert {
@@ -434,11 +436,11 @@ form button img {
     .showcase .showcase-text {
         width: 100%;
         padding: 1em;
-        margin: 6em auto 5em auto !important;
+        margin: 4em auto 5em auto !important;
     }
 
     .showcase-text h1 {
-        font-size: 24px;
+        font-size: 29px;
         line-height: 28px;  
         color: #1A2632;        
     }
@@ -446,8 +448,8 @@ form button img {
     .showcase-text p {
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 1.5rem; 
+        font-size: 18px;
+        line-height: 1.7rem; 
         color: #1A2632;
     }
 
@@ -529,8 +531,8 @@ form button img {
     }
 
     .content p {
-        font-size: 16px;
-        line-height: 1.5rem;
+        font-size: 18px;
+        line-height: 1.7rem;
         width: auto !important;
     }
 
@@ -559,8 +561,8 @@ form button img {
     }
 
     .footer h6 {
-        font-size: 16px;
-        line-height: 1.5rem;        
+        font-size: 18px;
+        line-height: 1.7rem;        
     }
 
     .footer {

@@ -167,11 +167,6 @@
             </div>
            </div>
     </footer>
-    
-    
-
-
-
 </body>
 <script src="./includes/wow.js"></script>
     <script>
