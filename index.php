@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="./css/bootstrap/bootstrap.css">
 </head>
 <body>   
+    <div class="preload">
+        <p class="preload-anim">
+            moviebadger
+        </p>
+    </div>
     <section>
         <div class="header">
             <div class="wrapper">

@@ -76,6 +76,62 @@ form button img {
     height: 24px;    
 }
 
+/* Preload Animation */ 
+
+.preload {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2000;
+    background: linear-gradient(81.44deg, #F92542 35.21%, #F0324F 116.87%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preload p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 180%;
+    width: 16em;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;  
+    overflow: hidden;
+    border-right: 2px solid #fff;
+}
+
+.preload-anim {
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 190px;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #fff;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+
 /* Header and Showcase*/
 
 
@@ -300,7 +356,7 @@ form button img {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
 
     .logo {
         padding: 0.5em;
@@ -505,7 +561,7 @@ form button img {
     
 }
 
-@media only screen and (min-width: 500px) and (max-width: 900px) {
+@media only screen and (min-width: 501px) and (max-width: 900px) {
     .wrapper {
         padding: 1em 2em;
     }

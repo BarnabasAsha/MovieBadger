@@ -1,3 +1,11 @@
+//Preload Animation
+
+const preload = document.querySelector('.preload');
+
+window.onload = setTimeout(() => {
+    preload.style.display = 'none';
+}, 5200);
+
 const form = document.getElementById('subscribe')
 const email = document.getElementById('email');
 
