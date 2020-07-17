@@ -14,7 +14,7 @@
             <div class="wrapper">
             <div class="logo">moviebadger</div>
             <div class="showcase">
-                <div class="showcase-text animated bounceInDown">
+                <div class="showcase-text animated slideInLeft">
                     <h1>Never struggle to remember
                             a movie ever again!</h1>
                     <p>By typing in a phrase you remember from the movie OR uploading 
@@ -32,9 +32,9 @@
                             </div>
                     </form>
                 </div>
-                <div class="img-contain">
-                <img class="bg-1 animated pulse" src="./images/screen.png" alt="">
-                    <img class="bg-2 animated pulse" src="./images/screen2.png" alt="">
+                <div class="img-contain animated slideInLeft">
+                <img class="bg-1" src="./images/screen.png" alt="">
+                    <img class="bg-2" src="./images/screen2.png" alt="">
                 </div>
             
             </div>
@@ -54,25 +54,32 @@
                     <div class="serial">
                                 1
                     </div>
+                    <div class="step-text">
                     <p>
                     Create an account on moviebadger to get detailed info and download link.
                     </p>
+                    </div>
                 </div>
                 <div class="step animated fadeInRight">
                     <div class="serial">
                                 2
                     </div>
+                    <div class="step-text">
                     <p>
                     Get the title of any movie you’re trying to remember by inputing a phrase or screenshot from the movie.
                     </p>
+                    </div>
+                    
                 </div>
                 <div class="step animated fadeInRight">
                     <div class="serial">
                                 3
                     </div>
+                    <div class="step-text">
                     <p>
                     View detailed info of the movie and also get download link.
                     </p>
+                    </div>
                 </div>
                 </div>
             </div>
@@ -95,14 +102,14 @@
     </section>
 
     <section>
-        <div class="container">
-            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center flex-row-reverse wow fadeInRight">
+    <div class="container">
+            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center flex-row-reverse mt-5 wow fadeInRight my-5">
                 <div class="img ml-5">
                     <img src="./images/search.png" alt="">
                 </div>
-                <div class="text">
-                    <h2 class="mb-4 text-left">Find Forgotten Movies</h2>
-                    <p class="text-left">Find movie by inputing a phrase or screenshot from the movie.</p>
+                <div class="text mr-5">
+                    <h2 class="mb-4 text-left" id="mobile-white">Find Forgotten Movies</h2>
+                    <p class="text-left" id="mobile-white">Find movie by uploading a screenshot or inputing a phrase you remember from the movie.</p>
                 </div>
             </div>
         </div>
@@ -129,7 +136,7 @@
 
     <section>
         <div class="container">
-            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center flex-row-reverse mt-5 wow fadeInRight my-5">
+            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center flex-row-reverse mt-5 my-5 wow fadeInRight">
                 <div class="img ml-5">
                     <img src="./images/customization.png" alt="">
                 </div>
