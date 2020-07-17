@@ -87,7 +87,7 @@
             
     </section>
 
-    <section  class="content-container">
+    <section  class="content-container" style="position: relative;overflow-x:hidden;">
         <div class="container">
             <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center wow bounceInLeft">
                 <div class="img mr-5">

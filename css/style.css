@@ -312,7 +312,7 @@ form button img {
 
     .header {
         background: none;
-        margin-bottom: 250px;
+        margin-bottom: 180px;
     }
 
     .main {
@@ -368,7 +368,7 @@ form button img {
     .showcase .showcase-text {
         width: 100%;
         padding: 1em;
-        margin: 10em auto 5em auto !important;
+        margin: 6em auto 5em auto !important;
     }
 
     .showcase-text h1 {
@@ -414,12 +414,7 @@ form button img {
 
     .steps-container {
         padding: 1em 1.5em;
-        margin-top: 20px;
-    }
-
-    .content-container {
-        position: relative !important;
-        overflow-x: hidden !important;
+        margin-top: 0;
     }
 
     .steps {
@@ -458,7 +453,7 @@ form button img {
 
     .content {
         padding-top: 3em;
-        margin-top: 80px;
+        margin-top: 40px;
     }
 
     .content h2 {
