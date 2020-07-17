@@ -32,9 +32,9 @@
                             </div>
                     </form>
                 </div>
-                <div class="img-contain animated slideInLeft">
-                <img class="bg-1" src="./images/screen.png" alt="">
-                    <img class="bg-2" src="./images/screen2.png" alt="">
+                <div class="img-contain ">
+                <img class="bg-1 animated slideInRight" src="./images/screen.png" alt="" >
+                    <img class="bg-2 animated slideInRight" src="./images/screen2.png" alt="" >
                 </div>
             
             </div>
@@ -47,10 +47,10 @@
 
     <section>
         <div class="steps-container">
-            <h2 class="text-center mb-5 animated fadeInRight">How It Works</h2>
+            <h2 class="text-center mb-5 wow fadeInRight">How It Works</h2>
             <div class="steps d-flex flex-column align-items-center justify-content-center">
             <div class="container d-flex flex-row justify-content-between align-items-start">
-                <div class="step animated fadeInRight">
+                <div class="step wow slideInLeft">
                     <div class="serial">
                                 1
                     </div>
@@ -60,7 +60,7 @@
                     </p>
                     </div>
                 </div>
-                <div class="step animated fadeInRight">
+                <div class="step wow slideInUp">
                     <div class="serial">
                                 2
                     </div>
@@ -71,7 +71,7 @@
                     </div>
                     
                 </div>
-                <div class="step animated fadeInRight">
+                <div class="step wow slideInRight">
                     <div class="serial">
                                 3
                     </div>
@@ -87,9 +87,9 @@
             
     </section>
 
-    <section>
+    <section  class="content-container">
         <div class="container">
-            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center wow fadeInLeft">
+            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center wow bounceInLeft">
                 <div class="img mr-5">
                     <img src="./images/create-acct.png" alt="">
                 </div>
@@ -99,11 +99,11 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section>
+    
+    
+    
     <div class="container">
-            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center flex-row-reverse mt-5 wow fadeInRight my-5">
+            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center flex-row-reverse mt-5 wow bounceInRight my-5">
                 <div class="img ml-5">
                     <img src="./images/search.png" alt="">
                 </div>
@@ -113,30 +113,30 @@
                 </div>
             </div>
         </div>
-    </section>
+    
 
-    <section>
+    
         <div class="container">
-        <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center wow fadeInLeft">
+        <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center wow bounceInLeft">
         <div class="img mr-5">
                     <img src="./images/favorite.png" alt="">
                 </div>
                 <div class="text ml-5">
-                    <h2 class="mb-4 text-right" id="white">Favorite List</h2>
+                    <h2 class="mb-4 text-right">Favorite List</h2>
                     <p class="text-right" id="white">Get overview of your favourite movies, watch trailers or select a movie to get detailed info and download link.
                     </p>
                 </div>
             </div>
         </div>
-    </section>
+    
 
     <div class="rotate">
 
     </div>
 
-    <section>
+    
         <div class="container">
-            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center flex-row-reverse mt-5 my-5 wow fadeInRight">
+            <div class="content d-flex flex-row flex-wrap justify-content-start align-items-center flex-row-reverse mt-5 my-5 wow bounceInRight">
                 <div class="img ml-5">
                     <img src="./images/customization.png" alt="">
                 </div>
@@ -149,7 +149,7 @@
     </section>
     <footer>
            <div class="footer">
-           <div class="container d-flex flex-column justify-content-center align-items-center animated fadeInUp">
+           <div class="container d-flex flex-column justify-content-center align-items-center wow fadeInUp">
            <h6 class="text-center mb-5">BE THE FIRST TO GET ACCESS WHEN THE APP GOES LIVE</h6>
             <form method
             ="POST" id="subscribe2">

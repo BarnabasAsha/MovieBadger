@@ -22,12 +22,13 @@ img {
     height: 100%;
 }
 
+.content-container {
+    position: relative !important;
+    overflow-x: hidden !important;
+}
+
 
 /* Utilities */
-
-.animated {
-    animation-delay: 0.7s;
-}
 
 .wrapper {
     padding: 0 8em;
@@ -41,7 +42,7 @@ img {
 }
 
 form input {
-    background: #2D3743;
+    background: #fff;
     border: 1px solid #a18282;
     width: 372px;
     height: 42px;
@@ -52,10 +53,10 @@ form input {
 
 form input::placeholder {
     font-style: normal;
-    font-weight: 300;
+    font-weight: normal;
     font-size: 13px;
     line-height: 15px;
-    color: rgba(255, 255, 255, 0.6);;
+    color: #1A2632;
 }
 
 form button {
@@ -95,6 +96,7 @@ form button img {
     height: 120vh;
     width: 100vw;
     margin: 0;
+    position: relative;
 }
 
 .main {
@@ -112,7 +114,7 @@ form button img {
 }
 
 .header form {
-    margin-top: 6em;
+    margin: 6em 0;
 }
 
 .alert {
@@ -235,19 +237,20 @@ form button img {
     padding-top: 10em;
 }
 
-#white {
+#mobile-white {
     color: #fff;
 }
 
 .rotate {
-    width: 150vw;
-    height: 573px;
+    width: 2500px;
+    height: 673px;
     background: linear-gradient(289.01deg, #1A2632 43.19%, #F92542 89.06%);
-    transform: rotate(-30.42deg);
+    transform: rotate(-25.42deg);
     position: absolute;
     left: -25em;
-    top: 3100px;
+    top: 850px;
     z-index: -1;
+
 }
 
 .content h2 {
@@ -289,9 +292,10 @@ form button img {
 
 
 
-@media only screen and (max-width: 350px) {
+@media only screen and (min-width: 300px) and (max-width: 350px) {
+
     .steps-container {
-        margin-top: 20em;
+        margin-top: 450px !important;
     }
 }
 
@@ -308,6 +312,7 @@ form button img {
 
     .header {
         background: none;
+        margin-bottom: 250px;
     }
 
     .main {
@@ -332,7 +337,7 @@ form button img {
 
     .bg-1 {
         position: absolute;
-        top: 7em;
+        top: 5em;
         right: 10em;
         left: 15%;
         display: block;
@@ -344,7 +349,7 @@ form button img {
 
     .bg-2 {
         position: absolute;
-        top: 5em;
+        top: 3em;
         right: 15%;
         display: block;
         margin: 0 auto;
@@ -394,6 +399,7 @@ form button img {
 
     form input {
         width: 216px;
+        height: 40px;
         background: #fff;
     }
 
@@ -403,10 +409,17 @@ form button img {
 
     form button {
         width: 76px;
+        height: 40px;
     }
 
     .steps-container {
         padding: 1em 1.5em;
+        margin-top: 20px;
+    }
+
+    .content-container {
+        position: relative !important;
+        overflow-x: hidden !important;
     }
 
     .steps {
@@ -425,7 +438,7 @@ form button img {
     }
 
     .step-text {
-        height: 185px;
+        height: 195px;
     }
 
     .step-text p {
@@ -445,6 +458,7 @@ form button img {
 
     .content {
         padding-top: 3em;
+        margin-top: 80px;
     }
 
     .content h2 {
@@ -471,10 +485,12 @@ form button img {
     }
 
     .rotate {
-        left: -17em;
-        width: 270vw;
-        top: 3100px;
-        height: 700px;
+        left: -10em;
+        right: 0;
+        width: 700px;
+        top: 1050px;
+        height: 1100px;
+        transform: rotate(57.42deg);
     }
 
     #mobile-white {
@@ -545,9 +561,10 @@ form button img {
     }
 
     .rotate {
-        left: -18em;
-        top: 2900px;
-        width: 250vw;
+        top: 650px;
+        transform: rotate(-25.42deg);
+        left: -30em;
+        height: 800px;
     }
 
     .content h2 {
@@ -572,7 +589,6 @@ form button img {
         height: 55vh;
     }
 
-
     .main {
         height: 54vh;
     }
@@ -590,9 +606,9 @@ form button img {
         right: 17em;
     }
     
-    .rotate{
-        top: 2900px;
-    }
+    /* .rotate{
+        top: 290px;
+    } */
 
     .step {
         width: 300px;
@@ -605,8 +621,7 @@ form button img {
 
 @media only screen and (min-width: 1000px) and (max-width: 1500px) {
     .rotate {
-        left: -22em;
-        width: 210vw;
+        top: 750px;
     }
     .footer {
         margin-top: 15em;
