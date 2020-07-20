@@ -11,7 +11,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     color: white;
     overflow-x: hidden;
- 
+    position: relative;
 }
 
 h1, h2, h3, h4,h5, h6, p, a{
@@ -80,7 +80,7 @@ form button img {
 /* Preload Animation */ 
 
 #preload {
-    position: fixed;
+    position: absolute;
     width: 100vw;
     height: 100vh;
     left: 0;
