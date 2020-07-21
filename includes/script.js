@@ -1,9 +1,11 @@
 //Preload Animation
 
 const preload = document.getElementById('preload');
+const mainContent = document.querySelector('main');
 
 setTimeout(() => {
     preload.style.display = 'none';
+    mainContent.style.display = 'block'
 }, 5000);
 
 

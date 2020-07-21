@@ -14,6 +14,7 @@
             moviebadger
         </p>
     </div>
+    <main id="main" class="animated fadeIn">
     <section>
         <div class="header">
             <div class="wrapper">
@@ -167,6 +168,7 @@
             </div>
            </div>
     </footer>
+    </main>
 </body>
 <script src="./includes/wow.js"></script>
     <script>

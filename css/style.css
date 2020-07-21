@@ -79,15 +79,15 @@ form button img {
 
 /* Preload Animation */ 
 
+#main {
+    display: none;
+    opacity: 1;
+    transition: all ease-in;
+}
+
 #preload {
-    position: absolute;
     width: 100vw;
     height: 100vh;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 2000;
     background: linear-gradient(81.44deg, #F92542 35.21%, #F0324F 116.87%);
     overflow: hidden;
     display: flex;
@@ -109,7 +109,7 @@ form button img {
 }
 
 .preload-anim {
-    animation: typewriter 4s steps(40) 1s 1 normal both,
+    animation: typewriter 3s steps(40) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
 }
 
@@ -118,7 +118,7 @@ form button img {
         width: 0;
     }
     to {
-        width: 190px;
+        width: 180px;
     }
 }
 
