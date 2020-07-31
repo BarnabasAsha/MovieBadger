@@ -47,9 +47,7 @@
         </div>
             </div>
     </section>
-    <div class="main">
-    
-    </div> 
+     
 
     <section>
         <div class="steps-container">

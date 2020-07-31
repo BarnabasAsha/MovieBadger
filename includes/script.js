@@ -1,7 +1,7 @@
 //Preload Animation
 
 const preload = document.getElementById('preload');
-const mainContent = document.querySelector('main');
+const mainContent = document.getElementById('main');
 
 setTimeout(() => {
     preload.style.display = 'none';
